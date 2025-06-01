@@ -11,7 +11,7 @@ maplibregl.addProtocol("pmtiles", protocol.tile);
 var map2 = new maplibregl.Map({
   container: "map2",
   hash: true,
-  style: "styles/style.json",
+  style: "styles/gsi_std.json",
   center: initialCenter,
   zoom: 14,
 });
@@ -120,7 +120,7 @@ function initializeMaplibreMaps(style, center, zoom) {
   });
 }
 
-initializeMaplibreMaps("styles/style_gsi_std.json", initialCenter, 14);
+initializeMaplibreMaps("styles/rekichizu.json", initialCenter, 14);
 
 let isSyncingmap2 = false;
 let isSyncingmap1 = false;
